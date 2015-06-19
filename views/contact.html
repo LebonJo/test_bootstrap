@@ -1,0 +1,108 @@
+<html>
+	<head>
+		<!-- Intégration de bootstrap -->
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="../styles/styles.css">
+	</head>
+	<body class="body">
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<span class="navbar-brand text-uppercase">Lebon Jonathan</span>
+				</div>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="../index.html">Accueil</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<div class="row">
+			<div class="col-sm-8 col-md-8 col-md-offset-2">
+				<h2>Contactez moi :</h2>
+				<form>
+					<div class="row">
+						<div class="col-sm-6 col-md-6">
+							<h4 class="text-center">Informations personnelles</h4>
+							<div class="form-group">
+								<label for="inputProfession">Vous êtes : </label>
+								<select class="form-control">
+									<option>Chanteur</option>
+									<option>Danseur</option>
+									<option>Chômeur</option>
+								</select>
+							</div>
+							<div class="form-group">
+								<label>Nom : </label>
+								<input type="text" class="form-control" placeholder="Nom">
+							</div>
+							<div class="form-group">
+								<label>Prénom : </label>
+								<input type="text" class="form-control" placeholder="Prénom">
+							</div>
+							<div class="form-group">
+								<label>Téléphone : </label>
+								<input type="tel" class="form-control" placeholder="00 00 00 00 00">
+							</div>
+							<div class="form-group">
+								<label>Adresse email : </label>
+								<input type="email" class="form-control" placeholder="john.doe@mail.com">
+							</div>
+							<div class="form-group">
+								<label>Message : </label>
+								<textarea class="form-control" rows="3" placeholder="Corps du message"></textarea>
+							</div>
+							<div class="form-group">
+								<label>Pièce jointe : </label>
+								<input type="file">
+								<p class="help-block">Choisir un fichier à joindre à votre message</p>
+							</div>
+							<div class="form-group">
+								<label>Couleur préférée : </label>
+								<input type="color" class="form-control">
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-6">
+							<h4 class="text-center">Informations complémentaires</h4>
+							<div class="form-group">
+								<label>Sexe : </label>
+								<div class="checkbox">
+									<label><input type="checkbox"> Mâle</label>
+									<label><input type="checkbox"> Femelle</label>
+									<label><input type="checkbox"> Autre</label>
+								</div>
+							</div>
+							<div class="form-group">
+								<label>Vous aimez : </label>
+								<div class="checkbox">
+									<label><input type="checkbox"> Le chocolat</label>
+									<label><input type="checkbox"> Les fraises</label>
+									<label><input type="checkbox"> Les pokemons</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<button type="submit" class="btn btn-default">Submit</button>
+				</form>
+			</div>
+		</div>
+
+		<footer class="panel-footer myFooter">
+			<!--p><a href="#" class="btn btn-primary" role="button">Contact</a></p-->
+			All rights reserved to me, myself and I.
+		</footer>
+
+		
+
+		<!-- JQuery est nécessaire pour faire fonctionner bootstrap -->
+		<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	</body>
+</html>
